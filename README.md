@@ -10,10 +10,10 @@ ln -s ~/freej2me/add-j2me-jar.desktop ~/.local/share/applications/add-j2me-jar.d
 ```
 
 **Set dimensions of your window's working area in emu.sh.** In my case (720x1280px screen and gnome mobile) working area is 720x1118px
-![image](https://user-images.githubusercontent.com/59665125/190923896-3a51b244-7096-47ea-b67d-45f0d1625529.png)![image](https://user-images.githubusercontent.com/59665125/190923964-e2887d39-4a45-4a77-b029-04c56d7e6531.png)
 
+![image](https://user-images.githubusercontent.com/59665125/190923964-e2887d39-4a45-4a77-b029-04c56d7e6531.png)
 
-
+![image](https://user-images.githubusercontent.com/59665125/190923896-3a51b244-7096-47ea-b67d-45f0d1625529.png)
 # Usage
 **GUI:**
 
