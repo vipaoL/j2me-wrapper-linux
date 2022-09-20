@@ -27,3 +27,7 @@ you can try to install my game for test :) https://github.com/vipaoL/mobap-game/
 ```
 # Full uninstall
 Delete ~/freej2me folder, ~/.local/share/applications/add-j2me-jar.desktop and ~/.local/share/applications/*_J2ME.desktop
+
+
+# Some plans for future
+Maybe i'll fully rewrite it in other language. Writing on bash is pain
