@@ -11,10 +11,7 @@ mv j2me-linux-integration ~/freej2me # it's hardcoded path (for now), do not cha
 ```
 cd ~/freej2me && ./install.sh
 ```
-Change my (vipaol) home folder to your in "add-j2me-jar.desktop". I forgot to fix it, i'll do it later
-
-**Set dimensions of your window's working area in emu.sh.** In my case (720x1280px screen and gnome mobile) working area is 720x1118px. Virtual screen will be twice smaller (if scale is set to 2)
-
+**Change my (vipaol) home folder to your in "add-j2me-jar.desktop". I forgot to fix it, i'll do it later**
 <img src="https://user-images.githubusercontent.com/59665125/190923964-e2887d39-4a45-4a77-b029-04c56d7e6531.png" width="300">
 <img src="https://user-images.githubusercontent.com/59665125/191327031-1a775106-5865-471e-bdfd-830d18383fa6.png" width="300">
 # Usage
@@ -29,7 +26,7 @@ you can try to install my game for test :) https://github.com/vipaoL/mobap-game/
 ~/freej2me/install_j2me_jar.sh /path/to/j2me-app.jar
 ```
 # Full uninstall
-Delete ~/freej2me folder, ~/.local/share/applications/add-j2me-jar.desktop and ~/.local/share/applications/*_J2ME.desktop
+Delete ~/freej2me folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
 
 
 # Some plans for future
