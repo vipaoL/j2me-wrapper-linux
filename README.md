@@ -12,8 +12,6 @@ mv j2me-linux-integration ~/freej2me # it's hardcoded path (for now), do not cha
 cd ~/freej2me && ./install.sh
 ```
 **Change my (vipaol) home folder to your in "add-j2me-jar.desktop". I forgot to fix it, i'll do it later**
-<img src="https://user-images.githubusercontent.com/59665125/190923964-e2887d39-4a45-4a77-b029-04c56d7e6531.png" width="300">
-<img src="https://user-images.githubusercontent.com/59665125/191327031-1a775106-5865-471e-bdfd-830d18383fa6.png" width="300">
 # Usage
 **GUI:**
 
