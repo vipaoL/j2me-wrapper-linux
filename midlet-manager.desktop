@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MIDlet-Manager
+Path=/home/vipaol/freej2me/
+Exec=/home/vipaol/freej2me/manager.sh
+
