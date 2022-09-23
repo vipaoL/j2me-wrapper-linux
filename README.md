@@ -9,8 +9,9 @@ cd ~ && git clone https://github.com/vipaoL/j2me-linux-integration.git
 mv j2me-linux-integration ~/freej2me # it's hardcoded path (for now), do not change
 ```
 ```
-ln -s ~/freej2me/add-j2me-jar.desktop ~/.local/share/applications/add-j2me-jar.desktop
+cd ~/freej2me && ./install.sh
 ```
+Change my (vipaol) home folder to your in "add-j2me-jar.desktop". I forgot to fix it, i'll do it later
 
 **Set dimensions of your window's working area in emu.sh.** In my case (720x1280px screen and gnome mobile) working area is 720x1118px. Virtual screen will be twice smaller (if scale is set to 2)
 
