@@ -1,0 +1,6 @@
+SCALE=2
+
+INSTALLATION_DIR=$HOME/freej2me
+SYSTEM_SHORTCUTS_DIR=$HOME/.local/share/applications
+APPS_DIR=$EMULATOR_DIR/apps
+TMP_WORKDIR=/tmp/j2me-installer
