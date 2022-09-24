@@ -21,10 +21,10 @@ you can try to install my game for test :) https://github.com/vipaoL/mobap-game/
 
 **CLI:**
 ```
-~/freej2me/install_j2me_jar.sh /path/to/j2me-app.jar
+./wrapper-files/install-j2me-jar.sh /path/to/j2me-app.jar
 ```
 # Full uninstall
-Delete ~/freej2me folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
+Delete "j2me" folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
 
 
 # Some plans for future
