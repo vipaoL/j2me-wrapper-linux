@@ -6,7 +6,7 @@
 cd ~ && git clone https://github.com/vipaoL/j2me-linux-integration.git
 ```
 ```
-mv j2me-linux-integration j2me # you can rename it as want
+mv j2me-linux-integration j2me # you can rename it as you want
 ```
 ```
 cd j2me && ./install.sh
