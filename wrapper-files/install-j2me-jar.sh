@@ -1,7 +1,6 @@
-EMULATOR_DIR=~/freej2me
-SYSTEM_APPLICATIONS_DIR=~/.local/share/applications
-APPS_DIR=$EMULATOR_DIR/apps
-TMP_WORKDIR=/tmp/j2me-installer
+#!/bin/bash
+cd $(dirname $0)
+source config/config.txt
 JAR_NAME=`basename $1`
 
 mkdir $APPS_DIR
@@ -20,7 +19,7 @@ echo $ICON_PATH
 cp $1 ${APPS_DIR}/$APP_NAME.jar
 cp extracted/$ICON_PATH -d $APPS_DIR/$APP_NAME.png
 
-cat $EMULATOR_DIR/template.desktop | sed "s#replace_with_home#$HOME#g" | sed "s#replace_with_app_name#$APP_NAME#g" > ${SYSTEM_APPLICATIONS_DIR}/${APP_NAME}_J2ME.desktop
+cat $INSTALLATION_DIR/wrapper-files/shortcuts/template-app.desktop | sed "s#replace_with_install_dir#$INSTALLATION_DIR#g" | sed "s#replace_with_app_name#$APP_NAME#g" > $SYSTEM_SHORTCUTS_DIR/${APP_NAME}_J2ME.desktop
 
 rm -rf $TMP_WORKDIR
 sleep 1

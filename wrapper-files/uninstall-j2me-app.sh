@@ -4,7 +4,9 @@
 #	echo $i...
 #	sleep 1
 #done
-rm ~/freej2me/apps/$1.jar
-rm ~/freej2me/apps/$1.png
-rm ~/.local/share/applications/$1_J2ME.desktop
+cd $(dirname $0)
+source config/config.txt
+rm $APPS_DIR/$1.jar
+rm $APPS_DIR/$1.png
+rm $SYSTEM_SHORTCUTS_DIR/$1_J2ME.desktop
 #echo Uninstalled $1

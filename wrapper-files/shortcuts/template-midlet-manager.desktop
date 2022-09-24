@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MIDlet-Manager
+Path=replace_with_install_dir/wrapper-files/
+Exec=replace_with_install_dir/wrapper-files/manager.sh
+

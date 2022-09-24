@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install J2ME application
+Icon=replace_with_install_dir/apps/j2me_app_installer.png
+Path=replace_with_install_dir/wrapper-files/
+Exec=replace_with_install_dir/wrapper-files/install-j2me-jar.sh %f
+Terminal=true
+MimeType=application/x-java-archive;application/java-archive;application/x-jar;
+NoDisplay=true
+

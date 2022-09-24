@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Terminal=true
-Path=replace_with_home/freej2me/
-Name=replace_with_app_name
-Icon=replace_with_home/freej2me/apps/replace_with_app_name.png
-Exec=replace_with_home/freej2me/emu.sh replace_with_app_name
-

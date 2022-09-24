@@ -1,3 +1,6 @@
 apps/*
 rms/*
 config
+wrapper-files/shortcuts/add-j2me-jar.desktop
+wrapper-files/shortcuts/midlet-manager.desktop
+
