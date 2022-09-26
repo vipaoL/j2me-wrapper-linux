@@ -6,25 +6,25 @@
 cd ~ && git clone https://github.com/vipaoL/j2me-linux-integration.git
 ```
 ```
-mv j2me-linux-integration ~/freej2me # it's hardcoded path (for now), do not change
+mv j2me-linux-integration j2me # you can rename it as you want
 ```
 ```
-cd ~/freej2me && ./install.sh
+cd j2me && ./install.sh
 ```
 **Change my (vipaol) home folder to your in "add-j2me-jar.desktop". I forgot to fix it, i'll do it later**
 # Usage
 **GUI:**
 
-Right click on j2me-application, choose "open with "Add-J2ME-to-apps"". The app will appear in your applications menu
+Right click on j2me-application, choose "open with "Install J2ME app"". The app will appear in your applications menu
 
 you can try to install my game for test :) https://github.com/vipaoL/mobap-game/releases
 
 **CLI:**
 ```
-~/freej2me/install_j2me_jar.sh /path/to/j2me-app.jar
+./wrapper-files/install-j2me-jar.sh /path/to/j2me-app.jar
 ```
 # Full uninstall
-Delete ~/freej2me folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
+Delete "j2me" folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
 
 
 # Some plans for future
