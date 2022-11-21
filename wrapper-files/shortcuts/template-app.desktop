@@ -1,9 +1,0 @@
-[Desktop Entry]
-Type=Application
-Version=1.0
-Terminal=true
-Path=replace_with_install_dir/wrapper-files/
-Name=replace_with_app_name
-Icon=replace_with_install_dir/apps/replace_with_app_name.png
-Exec=replace_with_install_dir/wrapper-files/emu.sh replace_with_app_name
-

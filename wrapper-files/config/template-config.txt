@@ -1,6 +1,6 @@
 SCALE=2
 
-INSTALLATION_DIR=replace_with_install_dir
+INSTALLATION_DIR='replace_with_install_dir'
 SYSTEM_SHORTCUTS_DIR=$HOME/.local/share/applications
 APPS_DIR=$INSTALLATION_DIR/apps
 TMP_WORKDIR=/tmp/j2me-installer
