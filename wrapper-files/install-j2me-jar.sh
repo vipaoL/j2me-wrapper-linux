@@ -4,7 +4,7 @@ source config/config.txt
 
 mkdir $APPS_DIR
 
-java -jar j2me-wrapper.jar "$1"
+java -jar j2me-wrapper.jar install "$1"
 
 rm -rf $TMP_WORKDIR
 sleep 1
