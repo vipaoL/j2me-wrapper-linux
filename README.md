@@ -3,24 +3,26 @@
 
 # Installation (also works on the desktop)
 ```
-cd ~ && git clone https://github.com/vipaoL/j2me-wrapper-linux.git
+cd ~ && wget https://github.com/vipaoL/j2me-wrapper-linux/archive/refs/heads/master.zip
 ```
 ```
-mv j2me-wrapper-linux j2me # you can rename it as you want
+unzip master.zip && rm master.zip
+```
+```
+mv j2me-wrapper-linux-master j2me # you can rename it as you want
 ```
 ```
 cd j2me && ./install.sh
 ```
 # Usage
-**GUI:**
+## GUI:
 
 Right click on a j2me application, choose "open with "Install J2ME app"". The app will appear in your system's applications list
 
+## CLI:
+```
+./wrapper-files/install-j2me-jar.sh -y path/to/j2me-app.jar
+```
 you can install my game for test: https://github.com/vipaoL/mobap-game/releases
-
-**CLI:**
-```
-./wrapper-files/install-j2me-jar.sh path/to/j2me-app.jar
-```
 # Full uninstall
 Delete "j2me" folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
