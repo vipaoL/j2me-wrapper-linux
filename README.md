@@ -2,15 +2,18 @@
 
 
 # Installation (also works on the desktop)
+Download and extract this repo (you can also do this using git)
 ```
 cd ~ && wget https://github.com/vipaoL/j2me-wrapper-linux/archive/refs/heads/master.zip
 ```
 ```
 unzip master.zip && rm master.zip
 ```
+Rename folder
 ```
-mv j2me-wrapper-linux-master j2me # you can rename it as you want
+mv j2me-wrapper-linux-master j2me # you can set other name
 ```
+Run the installer (you will need to run in again if you rename or move the installation folder)
 ```
 cd j2me && ./install.sh
 ```
