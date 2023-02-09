@@ -3,29 +3,24 @@
 
 # Installation (you can also try it on the desktop)
 ```
-cd ~ && git clone https://github.com/vipaoL/j2me-linux-integration.git
+cd ~ && git clone https://github.com/vipaoL/j2me-wrapper-linux.git
 ```
 ```
-mv j2me-linux-integration j2me # you can rename it as you want
+mv j2me-wrapper-linux j2me # you can rename it as you want
 ```
 ```
 cd j2me && ./install.sh
 ```
-**Change my (vipaol) home folder to your in "add-j2me-jar.desktop". I forgot to fix it, i'll do it later**
 # Usage
 **GUI:**
 
 Right click on j2me-application, choose "open with "Install J2ME app"". The app will appear in your applications menu
 
-you can try to install my game for test :) https://github.com/vipaoL/mobap-game/releases
+you can try to install my game for test: https://github.com/vipaoL/mobap-game/releases
 
 **CLI:**
 ```
-./wrapper-files/install-j2me-jar.sh /path/to/j2me-app.jar
+./wrapper-files/install-j2me-jar.sh path/to/j2me-app.jar
 ```
 # Full uninstall
 Delete "j2me" folder, ~/.local/share/applications/add-j2me-jar.desktop, ~/.local/share/applications/midlet-manager.desktop and ~/.local/share/applications/*_J2ME.desktop
-
-
-# Some plans for future
-Maybe i'll fully rewrite it in other language. Writing on bash is pain
