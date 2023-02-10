@@ -2,6 +2,7 @@
 Type=Application
 Version=1.0
 Name=MIDlet-Manager
+Icon=replace_with_install_dir/wrapper-files/shortcuts/icon.png
 Path=replace_with_install_dir/wrapper-files/
 Exec=replace_with_install_dir/wrapper-files/manager.sh
 
