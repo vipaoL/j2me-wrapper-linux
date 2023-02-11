@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Get screen dimensions - MIDlet-Manager
+Icon=replace_with_install_dir/wrapper-files/shortcuts/midlet-manager-get-window-dims.png
+Path=replace_with_install_dir/wrapper-files/
+Exec=replace_with_install_dir/wrapper-files/manager.sh get-dimensions
+
