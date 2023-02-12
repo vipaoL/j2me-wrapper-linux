@@ -8,5 +8,5 @@ cd $(dirname $0)
 source config/config.txt
 rm $APPS_DIR/$1.jar
 rm $APPS_DIR/$1.png
-rm $SYSTEM_SHORTCUTS_DIR/$1_J2ME.desktop
+rm $SYSTEM_SHORTCUTS_DIR/$1-j2mew.desktop
 #echo Uninstalled $1
