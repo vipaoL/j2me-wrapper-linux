@@ -1,6 +1,6 @@
 #!/bin/bash
 cd $(dirname $0)
-source config/config.txt
+source ../config/config.txt
 
 mkdir $APPS_DIR
 

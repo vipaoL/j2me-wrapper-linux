@@ -1,2 +1,0 @@
-W=480 H=640 # do not change. you may want to change SCALE in config.txt
-

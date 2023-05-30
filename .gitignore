@@ -1,8 +1,8 @@
-apps/*
-rms/*
-config
-!wrapper-files/config
-wrapper-files/config/config.txt
+apps
+emulators/*/rms
+emulators/freej2me/config
+config/config.txt
+config/window-dimensions.txt
 wrapper-files/shortcuts/add-j2me-jar.desktop
 wrapper-files/shortcuts/midlet-manager.desktop
-
+wrapper-files/shortcuts/midlet-manager-get-window-dims.desktop
